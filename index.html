@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./src/pokeball.ico" />
+    <script
+      src="https://kit.fontawesome.com/b085ddb7bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>PokecardDex</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/src/logo.png" alt="pokecarddex" />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="/" class="active">Card Database</a></li>
+          <li><a href="/">Deck Builder</a></li>
+        </ul>
+      </nav>
+      <main class="isi">
+        <div class="content-title">
+          <h1>Card Database</h1>
+        </div>
+        <div class="search-field">
+          <div class="search-box">
+            <input
+              id="name"
+              type="search"
+              class="search-input"
+              placeholder="Input card name"
+            />
+            <button class="search-button" type="button">Search</button>
+          </div>
+          <div class="filter-box">
+            <select id="supertype"></select>
+            <select id="type"></select>
+            <select id="subtype"></select>
+            <select id="pack"></select>
+            <select id="rarity"></select>
+            <button class="clear-filter" type="reset">Clear Filter</button>
+          </div>
+        </div>
+        <div class="result-box"></div>
+      </main>
+      <footer>
+        <div>Version 0.2</div>
+        <p>Design by Inun572😶‍🌫️</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/helmiainunnaim">
+            <i class="fa-brands fa-linkedin fa-lg" style="color: #000"></i>
+          </a>
+          <a href="https://www.github.com/Inun572">
+            <i class="fa-brands fa-github fa-lg" style="color: #000"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
