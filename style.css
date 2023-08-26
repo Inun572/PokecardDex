@@ -16,7 +16,7 @@
 
 body {
   background-color: var(--primary);
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
 }
 
